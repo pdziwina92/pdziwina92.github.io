@@ -1,0 +1,59 @@
+.custom-hr {
+    color: #A29FA0;
+    width: 200px;
+    justify-content: center;
+}
+
+h1.title {
+    color: #A29FA0;
+    text-align: center;
+}
+
+.button-style {
+    background-color: #F6F4F6;
+    border: none;
+}
+
+.button-style:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.button-style::after {
+    background-image: none;
+}
+
+.button-style:not(.collapsed)::after {
+    background-image: none;
+    color: #A29FA0;
+}
+
+.accordion-custom {
+    --bs-accordion-active-bg: #F6F4F6
+}
+
+.accordion-custom {
+    --bs-accordion-active-color: #A29FA0 
+}
+
+.accordion-custom {
+    --bs-accordion-color: #A29FA0
+}
+
+.accordion-custom {
+    --bs-accordion-btn-color: #E6B99B
+}
+
+.change-color {
+    color: #E6B99B;
+    /* transition: 0.3s; */
+}
+
+.change-color:hover {
+    --bs-accordion-btn-color: #A29FA0;
+    text-decoration: underline #A29FA0;
+}
+
+/* h2:hover {
+    color: #A29FA0;
+} */
